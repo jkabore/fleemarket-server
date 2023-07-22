@@ -1,8 +1,5 @@
 const cloudinary = require("cloudinary").v2;
-<<<<<<< HEAD
 require("dotenv").config();
-=======
->>>>>>> 1d3eb2ffe8783a4283249d29939a7e941c9a862b
 
 // Configuration
 cloudinary.config({
