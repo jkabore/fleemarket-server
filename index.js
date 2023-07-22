@@ -14,7 +14,7 @@ const notificationsRoute = require("./routes/notificationsRoute");
 const port = process.env.PORT || 8000;
 app.use(
   cors({
-    origin: "https://localhost:3000",
+    origin: process.env.STATIC_URL,
   })
 );
 app.use("/api/users", usersRoute);
